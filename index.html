@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>REBODY — A Science Fiction Film</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Space+Grotesk:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NAVIGATION -->
+  <nav id="navbar">
+    <a href="#" class="nav-logo">REBODY</a>
+    <ul class="nav-links">
+      <li><a href="#theme">Theme</a></li>
+      <li><a href="#synopsis">Synopsis</a></li>
+      <li><a href="#setting">Setting</a></li>
+      <li><a href="#characters">Characters</a></li>
+    </ul>
+  </nav>
+
+  <!-- HERO -->
+  <header class="hero">
+    <canvas id="particles"></canvas>
+    <div class="hero-content">
+      <p class="hero-label">A Science Fiction Film &mdash; Year 3050</p>
+      <div class="neon-title-block">
+        <h1 data-text="REBODY"><span class="neon-part-1">RE</span><span class="neon-part-2">BODY</span></h1>
+        <div class="neon-reflection" aria-hidden="true"><span class="neon-part-1">RE</span><span class="neon-part-2">BODY</span></div>
+      </div>
+      <p class="hero-sub">One body. Two souls. No way back.</p>
+      <p id="typewriter" class="hero-tagline"></p>
+      <a href="#synopsis" class="btn">Discover the Story</a>
+    </div>
+  </header>
+
+  <!-- MOVIE POSTER -->
+  <section class="section poster-section">
+    <div class="container">
+      <div class="cinema-showcase fade-in">
+        <p class="cinema-marquee">&#9654;&nbsp;&nbsp;Now Showing&nbsp;&nbsp;&#9664;</p>
+        <div class="movie-poster">
+          <div class="poster-corner tl"></div>
+          <div class="poster-corner tr"></div>
+          <div class="poster-corner bl"></div>
+          <div class="poster-corner br"></div>
+          <div class="poster-bg">
+            <img src="imgs/image6.png" alt="movie-poster" class="movie-poster"/>
+            <div class="poster-content">              
+              <p class="poster-studio">English Production</p>
+              <div class="poster-center-block">
+                <p class="poster-eyebrow">The Story of Elena Evans</p>
+                <h2 class="poster-main-title">REBODY</h2>
+
+              </div>
+              <div class="poster-footer-block">
+                <p class="poster-cast">
+                  Elena Evans &nbsp;&middot;&nbsp; Ivanka Harlan &nbsp;&middot;&nbsp;
+                  Edmund Harlan &nbsp;&middot;&nbsp; Marcus Collins &nbsp;&middot;&nbsp;
+                  Dara Seyn &nbsp;&middot;&nbsp; Nyra Voss
+                </p>
+                <div class="poster-meta">
+                  <span class="poster-rating">14+</span>
+                  <span>2h&nbsp;18min</span>
+                  <span class="poster-pipe">|</span>
+                  <span>Science Fiction &bull; Thriller</span>
+                  <span class="poster-pipe">|</span>
+                  <span>New Ironhaven &mdash; 3050</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- THEME -->
+  <section id="theme" class="section theme-section">
+    <div class="container">
+      <div class="section-header fade-in">
+        <span class="section-label">01 &mdash; Theme</span>
+        <h2>What Does It Mean to Own Your Body?</h2>
+      </div>
+      <div class="theme-grid">
+        <div class="theme-text fade-in">
+          <p>
+            <em>REBODY</em> explores what it means to own your identity when your body is a product
+            and your mind is a file on a corporate server. In a world where resurrection is a service,
+            who gets to be reborn?
+          </p>
+          <p>
+            The film is about class inequality, corporate monopoly, and the radical act of refusing to
+            become someone else — even when that someone else has everything you ever wanted.
+          </p>
+          <p>
+            At its core, REBODY asks a question no technology can answer:
+            <em>if everything about you can be bought, sold, or transferred — what is left that is truly yours?</em>
+          </p>
+        </div>
+        <div class="theme-pillars">
+          <div class="pillar fade-in">
+            <span class="pillar-num">I</span>
+            <div>
+              <h3>Identity</h3>
+              <p>Who are you when your body can be replaced and your mind can be stored?</p>
+            </div>
+          </div>
+          <div class="pillar fade-in">
+            <span class="pillar-num">II</span>
+            <div>
+              <h3>Power</h3>
+              <p>Who controls your right to live again — and at what price?</p>
+            </div>
+          </div>
+          <div class="pillar fade-in">
+            <span class="pillar-num">III</span>
+            <div>
+              <h3>Rebellion</h3>
+              <p>What does it cost to fight the system from the inside?</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SYNOPSIS -->
+  <section id="synopsis" class="section dark-section">
+    <div class="container">
+      <div class="section-header fade-in">
+        <span class="section-label">02 &mdash; Synopsis</span>
+        <h2>The Story</h2>
+      </div>
+      <div class="synopsis-body fade-in">
+        <p>
+          The year is <strong>3050</strong>. Natural resources have nearly vanished, and the human body
+          can no longer survive on its own. Most of humanity lives as cyborgs. The wealthy constantly
+          upgrade their bionic components; the poor make do with second-hand parts scraped from black
+          markets and junkyards.
+        </p>
+        <p>
+          The great promise of the era is <strong>digital immortality</strong>: when a person dies,
+          their mind can be transferred to a new bionic body and live again. But this process belongs
+          to a single, all-powerful corporation — <strong>Neuraxis</strong> — which charges a price
+          few can afford. Minds are stored on Neuraxis servers after death. The government subsidizes
+          storage, but not resurrection. Some awakened minds are put to work as cheap labor, with
+          minimal rights.
+        </p>
+        <p>
+          <strong>Elena Evans</strong> knows this world better than most. She grew up in the industrial
+          outskirts of New Ironhaven, repairing her own bionic parts with scrap metal. She leads the
+          youth wing of <em>ReBody</em>, a growing movement demanding fair prices and an end to
+          Neuraxis's monopoly. When the corporation announces a 40% price increase on essential
+          components, the streets of New Ironhaven explode.
+        </p>
+        <p>
+          That same night, <strong>Ivanka Harlan</strong> — daughter of Neuraxis founder Edmund Harlan —
+          watches the protest from a distance. Then a violent attack tears through the crowd: explosions,
+          smoke, chaos. Elena and Ivanka die meters apart. Their minds arrive at the Neuraxis servers
+          at the same moment.
+        </p>
+        <p>
+          In a catastrophic error the corporation will never admit,
+          <strong>their minds are swapped during resurrection.</strong>
+        </p>
+      </div>
+
+      <blockquote class="pull-quote fade-in">
+        &ldquo;Elena wakes up in the best body in the world. It is not hers.&rdquo;
+      </blockquote>
+
+      <div class="synopsis-body fade-in">
+        <p>
+          Now Elena has everything she never had: money, power, access to corporate secrets, and a
+          seat at the table where the future of humanity is decided. But to change the system from
+          within, she must maintain the biggest lie of her life — while the true enemy may already
+          be watching.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!--
+    PARALLAX — REBELLION
+  -->
+  <section id="rebellion" class="parallax-section">
+    <div class="parallax-overlay"></div>
+    <div class="container parallax-inner">
+      <div class="parallax-content fade-in">
+        <span class="section-label">New Ironhaven &mdash; Year 3050</span>
+        <h2>When the Streets Speak</h2>
+        <p>
+          Forty percent. That was all it took. When Neuraxis announced its price
+          increase, the people of Sector 9 had nothing left to lose &mdash; and
+          everything left to fight for.
+        </p>
+        <div class="reb-stats">
+          <div class="reb-stat">
+            <strong>ReBody</strong>
+            <span>Youth Movement</span>
+          </div>
+          <div class="reb-stat">
+            <strong>Sector&nbsp;9</strong>
+            <span>The Spark</span>
+          </div>
+          <div class="reb-stat">
+            <strong>One Night</strong>
+            <span>Changed Everything</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SETTING -->
+  <section id="setting" class="section">
+    <div class="container">
+      <div class="section-header fade-in">
+        <span class="section-label">03 &mdash; Setting</span>
+        <h2>New Ironhaven, 3050</h2>
+      </div>
+      <div class="setting-grid">
+        <div class="setting-text fade-in">
+          <p>
+            New Ironhaven is a vast industrial megacity where the boundary between human and machine
+            dissolved long ago. The wealthy live in towers of polished steel and clean circuits, their
+            bodies pristine and regularly updated. The poor rebuild themselves in the city's shadow
+            with salvaged components, hoping their parts hold together another year.
+          </p>
+          <p>
+            Dominating the skyline is the <strong>Neuraxis headquarters</strong> — a glass spire
+            that serves as both corporate palace and monument to the new world order. The company owns
+            not just the technology, but the social contract itself: you live, you upgrade, you die,
+            you are stored — and your resurrection, if it comes at all, is on their terms.
+          </p>
+          <p>
+            In the industrial outskirts, in neighborhoods like <strong>Sector 9</strong>, broken
+            bodies and broken promises pile up in equal measure. This is where Elena came from.
+            This is what she wants to change.
+          </p>
+        </div>
+        <div class="stat-cards">
+          <div class="stat-card fade-in">
+            <span class="stat-num">3050</span>
+            <span class="stat-desc">Current year</span>
+          </div>
+          <div class="stat-card fade-in">
+            <span class="stat-num">87%</span>
+            <span class="stat-desc">of humanity with bionic components</span>
+          </div>
+          <div class="stat-card fade-in">
+            <span class="stat-num">1</span>
+            <span class="stat-desc">corporation controlling resurrection</span>
+          </div>
+          <div class="stat-card fade-in">
+            <span class="stat-num">40%</span>
+            <span class="stat-desc">price increase that started everything</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CHARACTERS -->
+  <section id="characters" class="section dark-section">
+    <div class="container">
+      <div class="section-header fade-in">
+        <span class="section-label">04 &mdash; Characters</span>
+        <h2>The People of REBODY</h2>
+        <p class="section-hint">Click or tap a card to reveal the character</p>
+      </div>
+
+      <div class="char-grid">
+
+        <!-- 1. Elena Evans -->
+        <div class="char-card fade-in" data-role="protagonist">
+          <div class="card-inner">
+            <div class="card-front">
+              <img src="imgs/image7.png" alt="movie-poster" class="movie-poster"/>
+              <!-- <div class="char-portrait">E</div> -->
+              <div class="card-overlay">
+                <span class="card-role protagonist">Protagonist</span>
+                <h3>Elena Evans</h3>
+              </div>
+            </div>
+            <div class="card-back">
+              <span class="card-role protagonist">Protagonist</span>
+              <h3>Elena Evans</h3>
+              <blockquote>
+                &ldquo;I fought my whole life for a body that worked, for a dignified death and
+                a fair resurrection. Now I&rsquo;ve been resurrected in the best body in the world
+                &mdash; and it isn&rsquo;t mine.&rdquo;
+              </blockquote>
+              <p>Industrial zone worker&rsquo;s daughter. Grew up surviving with broken tools and
+              stubborn determination. Perspicacious, empathetic, deeply principled.</p>
+              <span class="flip-hint">tap to flip back</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- 2. Ivanka Harlan -->
+        <div class="char-card fade-in" data-role="ghost">
+          <div class="card-inner">
+            <div class="card-front">
+              <div class="char-portrait">I</div>
+              <div class="card-overlay">
+                <span class="card-role ghost">Flashbacks &amp; Diaries</span>
+                <h3>Ivanka Harlan</h3>
+              </div>
+            </div>
+            <div class="card-back">
+              <span class="card-role ghost">Flashbacks &amp; Diaries</span>
+              <h3>Ivanka Harlan</h3>
+              <blockquote>
+                &ldquo;I never wanted what my father built. I just never found the courage
+                to say it out loud.&rdquo;
+              </blockquote>
+              <p>Sensitive, silently courageous. Her diaries reveal a young woman who wanted to
+              break from her father. In death, she becomes what she never was in life: free.</p>
+              <span class="flip-hint">tap to flip back</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- 3. Edmund Harlan -->
+        <div class="char-card fade-in" data-role="villain">
+          <div class="card-inner">
+            <div class="card-front">
+              <div class="char-portrait">Ed</div>
+              <div class="card-overlay">
+                <span class="card-role villain">Main Antagonist</span>
+                <h3>Edmund Harlan</h3>
+              </div>
+            </div>
+            <div class="card-back">
+              <span class="card-role villain">Main Antagonist</span>
+              <h3>Edmund Harlan</h3>
+              <blockquote>
+                &ldquo;Immortality is the most perfect product ever created.
+                People will pay any price for it.&rdquo;
+              </blockquote>
+              <p>Founder of Neuraxis. Brilliant and relentless — not through cruelty, but through
+              cold conviction. Believes the market is the only honest system.</p>
+              <span class="flip-hint">tap to flip back</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- 4. Marcus Collins -->
+        <div class="char-card fade-in" data-role="villain2">
+          <div class="card-inner">
+            <div class="card-front">
+              <div class="char-portrait">M</div>
+              <div class="card-overlay">
+                <span class="card-role villain">Secondary Antagonist</span>
+                <h3>Marcus Collins</h3>
+              </div>
+            </div>
+            <div class="card-back">
+              <span class="card-role villain">Secondary Antagonist</span>
+              <h3>Marcus Collins</h3>
+              <blockquote>
+                &ldquo;Every revolution has a price.
+                Our job is to be the ones who collect it.&rdquo;
+              </blockquote>
+              <p>Neuraxis Chief of Operations. Controlled, paranoid, loyal only to power. Designed
+              the forced labor program — and suspects &ldquo;Ivanka&rdquo; is not who she claims.</p>
+              <span class="flip-hint">tap to flip back</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- 5. Dara Seyn -->
+        <div class="char-card fade-in" data-role="ambiguous">
+          <div class="card-inner">
+            <div class="card-front">
+              <div class="char-portrait">D</div>
+              <div class="card-overlay">
+                <span class="card-role ambiguous">Ambiguous</span>
+                <h3>Dara Seyn</h3>
+              </div>
+            </div>
+            <div class="card-back">
+              <span class="card-role ambiguous">Ambiguous</span>
+              <h3>Dara Seyn</h3>
+              <blockquote>
+                &ldquo;I&rsquo;ve known Ivanka for twenty years. You smile exactly like her.
+                But your eyes look for exits she never looked for.&rdquo;
+              </blockquote>
+              <p>Ivanka&rsquo;s closest friend. The most dangerous person in Elena&rsquo;s new
+              life — not because she wants to destroy her, but because she loves Ivanka enough
+              to need the truth.</p>
+              <span class="flip-hint">tap to flip back</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- 6. Nyra Voss -->
+        <div class="char-card fade-in" data-role="ally">
+          <div class="card-inner">
+            <div class="card-front">
+              <div class="char-portrait">N</div>
+              <div class="card-overlay">
+                <span class="card-role ally">Voice of the Streets</span>
+                <h3>Nyra Voss</h3>
+              </div>
+            </div>
+            <div class="card-back">
+              <span class="card-role ally">Voice of the Streets</span>
+              <h3>Nyra Voss</h3>
+              <blockquote>
+                &ldquo;Elena became a symbol. Symbols don&rsquo;t die.
+                But the people who carry them do.&rdquo;
+              </blockquote>
+              <p>ReBody&rsquo;s leader after Elena&rsquo;s death. Carries grief and revolt in
+              equal measure. She doesn&rsquo;t know Elena is alive — watching her from the
+              other side of the wall she spent her life trying to tear down.</p>
+              <span class="flip-hint">tap to flip back</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p class="footer-tagline">&ldquo;They can erase your memory. They cannot buy your soul.&rdquo;</p>
+    <p class="footer-credit">Maria Elisa & Débora &mdash; REBODY &mdash; 2026</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
